@@ -3,19 +3,19 @@ package basicSyntax;
 public class IfSwitch {
 
 	 public static void main(String[] args) {
-		int num =2;
+		int num = 2;
 		
-		if(num % 2 == 0) {
+		if (num % 2 == 0) {
 			System.out.println("２の倍数です。");
-		} else if(num % 3 == 0) {
+		} else if (num % 3 == 0) {
 			System.out.println("３の倍数です。");
-		}else {
+		} else {
 			System.out.println("どちらでもありません。");
 		}
 		
 	    String pref = "京都";
 	
-	    switch (pref){
+	    switch (pref) {
 	        case "北海":
 	        	System.out.println("北海道");
 		        break;
@@ -23,10 +23,10 @@ public class IfSwitch {
 	            System.out.println("東京都");
 	            break;
 	        case "京都":
-	             System.out.println("京都府");
-	             break;
+	            System.out.println("京都府");
+	            break;
 	        default:
-	             System.out.println("当てはまりません。");
+	            System.out.println("当てはまりません。");
 	        break;
 	    
 	     }
