@@ -3,7 +3,7 @@ package basicSyntax;
 public class Variables {
 
 	public static void main(String[] args) {
-		int sei = 32;
+		int sei = 31;
 		double syou = 3.14;
 		String iLike = "私の好きな";
 		String seiSu = "整数は";
